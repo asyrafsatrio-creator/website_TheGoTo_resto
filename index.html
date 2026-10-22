@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Go-To Resto | Clean & Calm Gen Z Resto</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Link ke File CSS Terpisah -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#home" class="brand-logo">
+          <div class="brand-icon"><i class="fa-solid fa-utensils"></i></div>
+          <div>
+            <span class="brand-name">The Go-To</span>
+            <span class="brand-tagline">RESTO & CAFÉ</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#vibes" class="nav-link">Vibes</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-bag-shopping"></i> Pesan Menu</a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <i class="fa-solid fa-sparkles"></i> Sustainable Food & Chill Space
+          </div>
+          <h1 class="hero-title">
+            Warm Meals, Calm Vibes, <span class="highlight">Good People.</span>
+          </h1>
+          <p class="hero-description">
+            Ruang santai dengan pilihan sajian bernutrisi, racikan kopi segar, dan tempat terbaik untuk WFC atau sekadar ngobrol santai.
+          </p>
+          
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> Lihat Semua Menu</a>
+            <a href="https://wa.me/6281234567890?text=Halo%20The%20Go-To%20Resto,%20saya%20mau%20reservasi%20meja" target="_blank" class="btn btn-secondary"><i class="fa-regular fa-calendar-check"></i> Reservasi Meja</a>
+          </div>
+
+          <div class="hero-badges-row">
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>100% Halal Ingredients</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-seedling"></i>
+              <span>Organic-sourced</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-wifi"></i>
+              <span>Cozy WFC Friendly</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1000&auto=format&fit=crop" alt="The Go-To Resto Dish">
+            
+            <div class="floating-badge badge-top-left">
+              <div class="floating-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="floating-text">
+                <strong>Rating 4.9/5.0</strong>
+                <span>Ulasan Pelanggan</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <div class="floating-icon"><i class="fa-solid fa-mug-hot"></i></div>
+              <div class="floating-text">
+                <strong>Freshly Brewed</strong>
+                <span>Setiap Hari</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section-padding about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-image-stack">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop" alt="Suasana Restoran" class="about-img-main">
+            <div class="about-experience-badge">
+              <span class="exp-number" data-target="5">0</span>+
+              <span class="exp-text">Tahun Menemani Momen Santai Anda</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-badge"><i class="fa-solid fa-heart"></i> Story Behind Us</div>
+          <h2 class="section-title">Tempat Nongkrong Modern Berkonsep Calm & Natural</h2>
+          <p class="about-text">
+            <strong>The Go-To Resto</strong> lahir dari semangat menghadirkan ruang yang tidak hanya menyajikan makanan dan minuman berkualitas, tetapi juga tempat yang menenangkan untuk beristirahat di tengah padatnya aktivitas harian.
+          </p>
+          <p class="about-text">
+            Kami memadukan bahan-bahan berkualitas tinggi segar harian locally sourced dengan suasana interior minimalis bernuansa earthy sage & warm cream. Cocok untuk kamu yang ingin Work From Cafe, atau sekadar menikmati waktu sendiri.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number"><span class="counter" data-target="16">0</span>+</div>
+              <div class="stat-label">Pilihan Menu Favorit</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number"><span class="counter" data-target="100">0</span>%</div>
+              <div class="stat-label">Bahan Halal & Fresh</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number"><span class="counter" data-target="2500">0</span>+</div>
+              <div class="stat-label">Pelanggan Setia</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section class="section-padding" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-leaf"></i> Our Selection</div>
+        <h2 class="section-title">Pilihan Menu Favorit</h2>
+        <p class="section-subtitle">Dibuat dari bahan-bahan segar berkualitas tinggi dengan cita rasa otentik.</p>
+      </div>
+
+      <!-- Search & Filter Controls -->
+      <div class="menu-controls">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="searchInput" placeholder="Cari menu makanan atau minuman..." onkeyup="filterMenu()">
+        </div>
+
+        <div class="filter-tabs">
+          <button class="filter-btn active" onclick="setFilter('all', this)">Semua</button>
+          <button class="filter-btn" onclick="setFilter('signature', this)">Signature</button>
+          <button class="filter-btn" onclick="setFilter('drinks', this)">Drinks</button>
+          <button class="filter-btn" onclick="setFilter('snacks', this)">Snacks</button>
+          <button class="filter-btn" onclick="setFilter('desserts', this)">Desserts</button>
+        </div>
+      </div>
+
+      <!-- Grid Menu -->
+      <div class="menu-grid" id="menuGrid">
+        
+        <!-- CARD 1 -->
+        <article class="menu-card" data-category="signature" data-name="the og smash burger">
+          <div class="card-media" onclick="openMenuModal('The OG Smash Burger', 'Rp 45.000', 'Double beef patty garing, melted cheddar, caramelised onion & rahasia Go-To sauce.', 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Best Seller</span>
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop" alt="Smash Burger">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('The OG Smash Burger', 'Rp 45.000', 'Double beef patty garing, melted cheddar, caramelised onion & rahasia Go-To sauce.', 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop')">The "OG" Smash Burger</h3>
+            <p class="product-desc">Double beef patty garing, melted cheddar, caramelised onion & rahasia Go-To sauce.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 45.000</span>
+              <button class="btn-add-cart" onclick="addToCart('The OG Smash Burger', 45000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="menu-card" data-category="signature" data-name="korean spicy garlic chicken">
+          <div class="card-media" onclick="openMenuModal('Korean Spicy Garlic Chicken', 'Rp 38.000', 'Ayam goreng krispi dibalur saus manis gurih pedas khas Korea dan taburan wijen.', 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Trending</span>
+            <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop" alt="Korean Chicken">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Korean Spicy Garlic Chicken', 'Rp 38.000', 'Ayam goreng krispi dibalur saus manis gurih pedas khas Korea dan taburan wijen.', 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop')">Korean Spicy Garlic Chicken</h3>
+            <p class="product-desc">Ayam goreng krispi dibalur saus manis gurih pedas khas Korea dan taburan wijen.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 38.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Korean Spicy Garlic Chicken', 38000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="menu-card" data-category="signature" data-name="truffle butter wagyu rice">
+          <div class="card-media" onclick="openMenuModal('Truffle Butter Wagyu Rice', 'Rp 58.000', 'Irisan daging Wagyu empuk dengan aroma truffle butter di atas nasi hangat & telur setengah matang.', 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Chef Pick</span>
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Wagyu Rice">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Truffle Butter Wagyu Rice', 'Rp 58.000', 'Irisan daging Wagyu empuk dengan aroma truffle butter di atas nasi hangat & telur setengah matang.', 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop')">Truffle Butter Wagyu Rice</h3>
+            <p class="product-desc">Irisan daging Wagyu empuk dengan aroma truffle butter di atas nasi hangat & telur setengah matang.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 58.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Truffle Butter Wagyu Rice', 58000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="menu-card" data-category="signature" data-name="creamy carbonara tteokbokki">
+          <div class="card-media" onclick="openMenuModal('Creamy Carbonara Tteokbokki', 'Rp 35.000', 'Tteokbokki kenyal disajikan dengan kuah carbonara gurih creamy, smoked beef, dan keju parmesan.', 'https://images.unsplash.com/photo-1617093727343-374698b1b08d?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Favorite</span>
+            <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?q=80&w=800&auto=format&fit=crop" alt="Carbonara Tteokbokki">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Creamy Carbonara Tteokbokki', 'Rp 35.000', 'Tteokbokki kenyal disajikan dengan kuah carbonara gurih creamy, smoked beef, dan keju parmesan.', 'https://images.unsplash.com/photo-1617093727343-374698b1b08d?q=80&w=800&auto=format&fit=crop')">Creamy Carbonara Tteokbokki</h3>
+            <p class="product-desc">Tteokbokki kenyal disajikan dengan kuah carbonara gurih creamy, smoked beef, dan keju parmesan.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 35.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Creamy Carbonara Tteokbokki', 35000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 5 -->
+        <article class="menu-card" data-category="drinks" data-name="matcha cloud latte">
+          <div class="card-media" onclick="openMenuModal('Matcha Cloud Latte', 'Rp 25.000', 'Pure Uji Matcha autentik disiram fresh milk dan lapisan sea salt cream foam lembut.', 'https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Must Try</span>
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop" alt="Matcha Cloud">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Matcha Cloud Latte', 'Rp 25.000', 'Pure Uji Matcha autentik disiram fresh milk dan lapisan sea salt cream foam lembut.', 'https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop')">Matcha Cloud Latte</h3>
+            <p class="product-desc">Pure Uji Matcha autentik disiram fresh milk dan lapisan sea salt cream foam lembut.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 25.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Matcha Cloud Latte', 25000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 6 -->
+        <article class="menu-card" data-category="drinks" data-name="iced sea salt caramel latte">
+          <div class="card-media" onclick="openMenuModal('Iced Sea Salt Caramel Latte', 'Rp 28.000', 'Espresso house-blend segar disadukan dengan saus karamel manis dan hint sea salt gurih.', 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Popular</span>
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop" alt="Caramel Latte">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Iced Sea Salt Caramel Latte', 'Rp 28.000', 'Espresso house-blend segar disadukan dengan saus karamel manis dan hint sea salt gurih.', 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop')">Iced Sea Salt Caramel Latte</h3>
+            <p class="product-desc">Espresso house-blend segar disadukan dengan saus karamel manis dan hint sea salt gurih.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 28.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Iced Sea Salt Caramel Latte', 28000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 7 -->
+        <article class="menu-card" data-category="drinks" data-name="dragonfruit peach sparkling">
+          <div class="card-media" onclick="openMenuModal('Dragonfruit Peach Sparkling', 'Rp 24.000', 'Minuman soda buah naga & persik yang menyegarkan dengan bulir mint & potongan buah asli.', 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Refreshing</span>
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop" alt="Sparkling Drink">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Dragonfruit Peach Sparkling', 'Rp 24.000', 'Minuman soda buah naga & persik yang menyegarkan dengan bulir mint & potongan buah asli.', 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop')">Dragonfruit Peach Sparkling</h3>
+            <p class="product-desc">Minuman soda buah naga & persik yang menyegarkan dengan bulir mint & potongan buah asli.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 24.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Dragonfruit Peach Sparkling', 24000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 8 -->
+        <article class="menu-card" data-category="drinks" data-name="strawberry cloud milkshake">
+          <div class="card-media" onclick="openMenuModal('Strawberry Cloud Milkshake', 'Rp 26.000', 'Olahan stroberi asli dikocok dengan es krim vanilla creamy dan topping whipped cream.', 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Sweet</span>
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop" alt="Strawberry Milkshake">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Strawberry Cloud Milkshake', 'Rp 26.000', 'Olahan stroberi asli dikocok dengan es krim vanilla creamy dan topping whipped cream.', 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop')">Strawberry Cloud Milkshake</h3>
+            <p class="product-desc">Olahan stroberi asli dikocok dengan es krim vanilla creamy dan topping whipped cream.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 26.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Strawberry Cloud Milkshake', 26000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 9 (FIXED IMAGE) -->
+        <article class="menu-card" data-category="snacks" data-name="truffle parmesan fries">
+          <div class="card-media" onclick="openMenuModal('Truffle Parmesan Fries', 'Rp 28.000', 'Kentang goreng garing bertabur minyak truffle harum dan keju parmesan melimpah.', 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Sharing</span>
+            <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop" alt="Truffle Parmesan Fries">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Truffle Parmesan Fries', 'Rp 28.000', 'Kentang goreng garing bertabur minyak truffle harum dan keju parmesan melimpah.', 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop')">Truffle Parmesan Fries</h3>
+            <p class="product-desc">Kentang goreng garing bertabur minyak truffle harum dan keju parmesan melimpah.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 28.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Truffle Parmesan Fries', 28000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 10 -->
+        <article class="menu-card" data-category="snacks" data-name="crispy mozzarella sticks">
+          <div class="card-media" onclick="openMenuModal('Crispy Mozzarella Sticks', 'Rp 30.000', 'Stik keju mozzarella melar dilapisi tepung renyah, disajikan dengan saus marinara hangat.', 'https://images.unsplash.com/photo-1531749668029-2db88e4276c7?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Cheesy</span>
+            <img src="https://images.unsplash.com/photo-1531749668029-2db88e4276c7?q=80&w=800&auto=format&fit=crop" alt="Mozzarella Sticks">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Crispy Mozzarella Sticks', 'Rp 30.000', 'Stik keju mozzarella melar dilapisi tepung renyah, disajikan dengan saus marinara hangat.', 'https://images.unsplash.com/photo-1531749668029-2db88e4276c7?q=80&w=800&auto=format&fit=crop')">Crispy Mozzarella Sticks</h3>
+            <p class="product-desc">Stik keju mozzarella melar dilapisi tepung renyah, disajikan dengan saus marinara hangat.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 30.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Crispy Mozzarella Sticks', 30000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 11 -->
+        <article class="menu-card" data-category="snacks" data-name="gyoza mentai crispy">
+          <div class="card-media" onclick="openMenuModal('Gyoza Mentai Crispy', 'Rp 32.000', 'Gyoza ayam panggang krispi disiram saus mentai yang dibakar melty di atasnya.', 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Tasty</span>
+            <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?q=80&w=800&auto=format&fit=crop" alt="Gyoza Mentai">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Gyoza Mentai Crispy', 'Rp 32.000', 'Gyoza ayam panggang krispi disiram saus mentai yang dibakar melty di atasnya.', 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?q=80&w=800&auto=format&fit=crop')">Gyoza Mentai Crispy</h3>
+            <p class="product-desc">Gyoza ayam panggang krispi disiram saus mentai yang dibakar melty di atasnya.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 32.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Gyoza Mentai Crispy', 32000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 12 -->
+        <article class="menu-card" data-category="snacks" data-name="loaded nachos deluxe">
+          <div class="card-media" onclick="openMenuModal('Loaded Nachos Deluxe', 'Rp 36.000', 'Keripik tortila dengan topping daging cincang, saus keju lumer, jalapeño, dan guacamole.', 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Party Size</span>
+            <img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=800&auto=format&fit=crop" alt="Loaded Nachos">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Loaded Nachos Deluxe', 'Rp 36.000', 'Keripik tortila dengan topping daging cincang, saus keju lumer, jalapeño, dan guacamole.', 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=800&auto=format&fit=crop')">Loaded Nachos Deluxe</h3>
+            <p class="product-desc">Keripik tortila dengan topping daging cincang, saus keju lumer, jalapeño, dan guacamole.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 36.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Loaded Nachos Deluxe', 36000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 13 -->
+        <article class="menu-card" data-category="desserts" data-name="vanilla caramel croffle">
+          <div class="card-media" onclick="openMenuModal('Vanilla Caramel Croffle', 'Rp 22.000', 'Croissant waffle renyah dengan 1 scoop es krim vanilla artisan dan guyuran salted caramel.', 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Sweet Treat</span>
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop" alt="Croffle Dessert">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Vanilla Caramel Croffle', 'Rp 22.000', 'Croissant waffle renyah dengan 1 scoop es krim vanilla artisan dan guyuran salted caramel.', 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop')">Vanilla Caramel Croffle</h3>
+            <p class="product-desc">Croissant waffle renyah dengan 1 scoop es krim vanilla artisan dan guyuran salted caramel.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 22.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Vanilla Caramel Croffle', 22000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 14 -->
+        <article class="menu-card" data-category="desserts" data-name="nutella banana waffle">
+          <div class="card-media" onclick="openMenuModal('Nutella Banana Waffle', 'Rp 26.000', 'Waffle empuk ala Belgia disajikan dengan olesan Nutella tebal dan irisan pisang segar.', 'https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Delight</span>
+            <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=800&auto=format&fit=crop" alt="Nutella Waffle">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Nutella Banana Waffle', 'Rp 26.000', 'Waffle empuk ala Belgia disajikan dengan olesan Nutella tebal dan irisan pisang segar.', 'https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=800&auto=format&fit=crop')">Nutella Banana Waffle</h3>
+            <p class="product-desc">Waffle empuk ala Belgia disajikan dengan olesan Nutella tebal dan irisan pisang segar.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 26.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Nutella Banana Waffle', 26000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 15 -->
+        <article class="menu-card" data-category="desserts" data-name="matcha lava cake">
+          <div class="card-media" onclick="openMenuModal('Matcha Lava Cake', 'Rp 28.000', 'Kue cokelat lembut dengan lelehan cokelat putih matcha Uji hangat di bagian tengahnya.', 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Molten</span>
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop" alt="Matcha Lava Cake">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Matcha Lava Cake', 'Rp 28.000', 'Kue cokelat lembut dengan lelehan cokelat putih matcha Uji hangat di bagian tengahnya.', 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop')">Matcha Lava Cake</h3>
+            <p class="product-desc">Kue cokelat lembut dengan lelehan cokelat putih matcha Uji hangat di bagian tengahnya.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 28.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Matcha Lava Cake', 28000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 16 -->
+        <article class="menu-card" data-category="desserts" data-name="berry acai smoothie bowl">
+          <div class="card-media" onclick="openMenuModal('Berry Acai Smoothie Bowl', 'Rp 32.000', 'Smoothie acai berry dingin dengan topping granola renyah, chia seed, dan potongan buah segar.', 'https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=800&auto=format&fit=crop')">
+            <span class="card-badge">Healthy</span>
+            <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=800&auto=format&fit=crop" alt="Smoothie Bowl">
+          </div>
+          <div class="card-body">
+            <h3 class="product-title" onclick="openMenuModal('Berry Acai Smoothie Bowl', 'Rp 32.000', 'Smoothie acai berry dingin dengan topping granola renyah, chia seed, dan potongan buah segar.', 'https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=800&auto=format&fit=crop')">Berry Acai Smoothie Bowl</h3>
+            <p class="product-desc">Smoothie acai berry dingin dengan topping granola renyah, chia seed, dan potongan buah segar.</p>
+            <div class="card-footer">
+              <span class="product-price">Rp 32.000</span>
+              <button class="btn-add-cart" onclick="addToCart('Berry Acai Smoothie Bowl', 32000)" title="Tambah ke Keranjang"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VIBES / GALLERY SECTION -->
+  <section class="section-padding vibes-section" id="vibes">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-camera"></i> Atmosphere</div>
+        <h2 class="section-title">Aesthetic Vibes & Space</h2>
+        <p class="section-subtitle">Intip sudut-sudut estetis dan nyaman di The Go-To Resto.</p>
+      </div>
+
+      <div class="vibes-grid">
+        <div class="vibes-card">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop" alt="Cozy Indoor Seating">
+          <div class="vibes-overlay">
+            <h4>Cozy Indoor Corner</h4>
+            <p>Spot favorit untuk WFC dengan steker listrik dan WiFi kencang.</p>
+          </div>
+        </div>
+        <div class="vibes-card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop" alt="Outdoor Garden">
+          <div class="vibes-overlay">
+            <h4>Outdoor Garden Spot</h4>
+            <p>Nikmati angin sepoi-sepoi dan nuansa hijau alami di sore hari.</p>
+          </div>
+        </div>
+        <div class="vibes-card">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=800&auto=format&fit=crop" alt="Barista Bar">
+          <div class="vibes-overlay">
+            <h4>Artisan Barista Bar</h4>
+            <p>Saksikan langsung seduhan kopi premium racikan barista kami.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#home" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-icon" style="background: var(--primary-color); color:#fff;"><i class="fa-solid fa-utensils"></i></div>
+            <div>
+              <span class="brand-name" style="color:#fff;">The Go-To</span>
+              <span class="brand-tagline" style="color:var(--accent-color);">RESTO</span>
+            </div>
+          </a>
+          <p style="font-size: 0.9rem; color: #a1b0a8; line-height: 1.6;">
+            Tempat nongkrong tenang dan modern untuk menikmati makanan lezat, racikan kopi segar, dan momen terbaik bersama teman.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Jam Operasional</h4>
+          <ul class="footer-links">
+            <li><span>Senin - Kamis:</span> 10.00 - 22.00 WIB</li>
+            <li><span>Jumat - Minggu:</span> 09.00 - 23.00 WIB</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Lokasi & Kontak</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-location-dot"></i> Jl. Senopati No. 45, Jakarta Selatan</li>
+            <li><i class="fa-solid fa-phone"></i> +62 812-3456-7890</li>
+            <li><i class="fa-solid fa-envelope"></i> hello@thegotoresto.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>The Go-To Resto</strong>. All rights reserved. Calm & Delicious Moments Always ✨</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CART BAR -->
+  <div class="cart-floating-bar" id="cartBar">
+    <div class="cart-info" onclick="toggleCartModal()">
+      <div class="cart-icon-wrapper">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="cart-count-badge" id="cartCount">0</span>
+      </div>
+      <div>
+        <div class="cart-title">Item Terpilih (Klik kelola)</div>
+        <div class="cart-total" id="cartTotal">Rp 0</div>
+      </div>
+    </div>
+    <div class="cart-bar-actions">
+      <button class="btn btn-secondary btn-cart-detail" onclick="toggleCartModal()">
+        <i class="fa-solid fa-list-check"></i> Kelola
+      </button>
+      <button class="btn btn-primary btn-checkout" onclick="checkoutWA()">
+        <span>Order WA</span> <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- MODAL DETAIL MENU -->
+  <div class="modal-backdrop" id="menuModal" onclick="closeMenuModal(event)">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeMenuModalDirect()"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-media">
+        <img src="" id="modalImg" alt="Detail Menu">
+      </div>
+      <div class="modal-body">
+        <h3 id="modalTitle">Menu Title</h3>
+        <p class="modal-price" id="modalPrice">Rp 0</p>
+        <p class="modal-desc" id="modalDesc">Menu Description</p>
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="modalAddBtn"><i class="fa-solid fa-cart-plus"></i> Tambah ke Pesanan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL KELOLA PESANAN & BATALKAN -->
+  <div class="modal-backdrop" id="cartModal" onclick="closeCartModal(event)">
+    <div class="modal-card cart-detail-card">
+      <div class="modal-header-cart">
+        <h3><i class="fa-solid fa-cart-flatbed"></i> Rincian Pesanan Kamu</h3>
+        <button class="modal-close-btn" onclick="closeCartModalDirect()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      
+      <div class="cart-items-list" id="cartItemsList">
+        <!-- Item dari JS -->
+      </div>
+
+      <div class="cart-summary-footer">
+        <div class="cart-summary-row">
+          <span>Total Item:</span>
+          <strong id="cartSummaryQty">0 item</strong>
+        </div>
+        <div class="cart-summary-row total-row">
+          <span>Total Bayar:</span>
+          <strong id="cartSummaryTotal">Rp 0</strong>
+        </div>
+
+        <div class="cart-modal-buttons">
+          <button class="btn btn-clear-cart" onclick="clearAllCart()"><i class="fa-solid fa-trash-can"></i> Batalkan Semua</button>
+          <button class="btn btn-primary" onclick="checkoutWA()"><i class="fa-brands fa-whatsapp"></i> Kirim ke WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toast">
+    <i class="fa-solid fa-circle-check"></i> <span id="toastMsg">Menu ditambahkan!</span>
+  </div>
+
+  <!-- Link ke File JavaScript Terpisah -->
+  <script src="script.js"></script>
+</body>
+</html>
